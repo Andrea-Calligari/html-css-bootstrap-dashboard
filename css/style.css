@@ -86,45 +86,28 @@ a{
    margin-bottom: 18px;
 
 }
+.student{
+    background-color: #0D6EFD;
+}
+.badge__student{
+    background-color: #08439b;
+}
 
 
-/*
-.nav__bar{
-    height: 80px;
+.off__canvas{
     
+    min-width: 45%;
 }
-
-
-.list__aside{
-    height: 100%;
-}
-
-.boolean__students{
-    background-color: #1B72E8;
-    height: 150px;
-}
-
-.container{
-    height: 100vh;
-}
-.row{
-    row-gap: 8px;
+.relative{
+    position: relative;
     width: 100%;
 }
+.descr{
+    position: absolute;
+    top: 55px;
+   
 
-
-
-.list__aside li >  a {
-color: #495057;
 }
-
-
-
-
-
-
-
-
 /* STYLE */
 
 
