@@ -17,54 +17,60 @@ a{
     
 }
 /* LAYOUT */
-.nav__bar{
-    max-height: 8vh;
+
+.logo__mobile{
+    
+    width: 90px;
+    padding: 12px;
+   
+}
+.logo__desktop{
+    width: 190px;
+    padding: 20px;
     
 }
-.nav__input{
-    width: 80%;
-}
-
-
-.aside__bar{
+.sidebar{
     width: 90px;
-    height: 100vh;
     color: white;
     background: rgb(18,41,63);
     background: linear-gradient(52deg, rgba(18,41,63,1) 75%, rgba(5,30,52,1) 75%);
 }
-.list__aside{
-    height: 100%;
-}
- .list__aside a{
-   margin-left: 10px;
-   color: white;
-}
-
-.row{
-    row-gap: 8px;
+.app__toolbar{
+    height: 70px;
 }
 
 
-.logo__mobile{
-    display: block;
-    max-width: 100px;
-    padding: 12px;
+
+.searchbar__input{
+    position: relative;
+    left: 25px;
+    top: 2px;
+    pointer-events: none;
 }
-.logo__desktop{
-    width: 220px;
-    padding: 16px;
-    margin-right: 10px;
+.nav__input{
+    max-width: 100%;
+    border-radius: 10px;
+    background-color: #dedede;
+    border: none;
+    height: 42px;
+    padding-left: 32px;
 }
 
 
-.list__nav  a {
-color: #495057;
+
+
+.sidebar nav,
+.sidebar nav > ul{
+    display: contents;
+}
+.list__aside li > a{
+    margin-left: 0;
+    color: white;
 }
 
-ul > li > a{
-    color: #FF8F00;
-}
+ .card__class{
+   margin-bottom: 18px;
+} 
 
 .coding{
     aspect-ratio: 1 / 1;
@@ -73,17 +79,49 @@ ul > li > a{
     padding: 4px;
     color: white;
 }
+.todo__list{
+    padding: 18px;
+}
+.card__todo{
+   margin-bottom: 18px;
 
-.card{
-    overflow: auto ;
 }
 
-.tabel tr td:first-child{
-width: 10px;
+
+/*
+.nav__bar{
+    height: 80px;
+    
 }
-.tabel tr td:not(:first-child){
-width: 20%;
+
+
+.list__aside{
+    height: 100%;
 }
+
+.boolean__students{
+    background-color: #1B72E8;
+    height: 150px;
+}
+
+.container{
+    height: 100vh;
+}
+.row{
+    row-gap: 8px;
+    width: 100%;
+}
+
+
+
+.list__aside li >  a {
+color: #495057;
+}
+
+
+
+
+
 
 
 
@@ -97,29 +135,17 @@ width: 20%;
 
 
 /* MEDIA-QUERY */
-@media screen and (min-width: 768px){
-    .aside__bar{
-        width: 130px;
-    }
-}
 
 @media screen and (min-width: 992px) {
-    .aside__bar{
-        width: 200px;
-    }
-    .aside__bar > .list__aside{
-        align-items: flex-start;
-        margin-left: 20px;
-        padding-top: 12px;
-        
-       
-    }
-   
+  
+   .sidebar{
+    width: 150px;
+   }
 
 }
 
-
-
+ 
+ 
 
 
 
@@ -127,6 +153,9 @@ width: 20%;
 
 
 /* DEBUG */
-.debug .row{
-    border: 1px solid red;
+#app, .app__body > *{
+    /* border: 1px solid black; */
+}
+.main__content > *{
+    /* border: 1px solid blue; */
 }
