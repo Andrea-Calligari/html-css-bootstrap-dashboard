@@ -39,7 +39,12 @@ a{
     height: 70px;
 }
 
-
+.app__body{
+    height: 0;
+}
+.main__content{
+    overflow: scroll;
+}
 
 .searchbar__input{
     position: relative;
@@ -88,30 +93,22 @@ a{
 }
 .student{
     background-color: #0D6EFD;
+   
 }
 .badge__student{
     background-color: #08439b;
 }
 
 
-.off__canvas{
-    
-    min-width: 45%;
-}
-.relative{
-    position: relative;
+#offcanvasExample{
     width: 100%;
-}
-.descr{
-    position: absolute;
-    top: 55px;
-   
-
 }
 /* STYLE */
 
 
-
+label{
+    padding: 8px;
+}
 
 
 

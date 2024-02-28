@@ -71,7 +71,7 @@
                 </nav>
             </header>
             <main class="main__content flex-grow-1">
-                <section class="student text-white p-2 ">
+                <section class="student text-white p-4 ">
                     <div class="container-fluid">
                         <div class="row g-4 d-inline-block d-md-flex">
                             <div class="col-12 col-md-3">
@@ -376,13 +376,17 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </main>
         </div>
 
 
 
         <!-- OFFCANVAS -->
-        <div class=" off__canvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+        <div class=" offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
             aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
                 <div class="offcanvas-title py-1" id="offcanvasExampleLabel">Inserisci un nuovo studente</div>
@@ -392,12 +396,19 @@
                 <div class="row justify-content-between">
                     <div class="col-12 text-start">
                         <form action="">
-                            <input type="text">
-                            <input type="text">
-                            <input type="text">
+
                         </form>
                     </div>
                 </div>
+                <form class="form-inline d-flex flex-wrap" action="/action_page.php">
+                    <label for="fname">Nome</label>
+                    <input id="fname" type="text">
+                    <label for="sname">Cognome</label>
+                    <input id="sname" type="text">
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+
+                </form>
             </div>
 
 
