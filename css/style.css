@@ -99,7 +99,6 @@ a{
     background-color: #08439b;
 }
 
-
 #offcanvasExample{
     width: 100%;
 }
@@ -110,7 +109,9 @@ label{
     padding: 8px;
 }
 
-
+.order__col{
+    order: 2;
+}
 
 
 
