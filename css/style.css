@@ -17,6 +17,9 @@ a{
     
 }
 /* LAYOUT */
+.order__col{
+    order: 2;
+}
 
 .logo__mobile{
     
@@ -109,9 +112,6 @@ label{
     padding: 8px;
 }
 
-.order__col{
-    order: 2;
-}
 
 
 
