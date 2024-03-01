@@ -16,6 +16,8 @@ a{
     margin: 0;
     
 }
+
+
 /* LAYOUT */
 .order__col{
     order: 2;
@@ -94,22 +96,25 @@ a{
    margin-bottom: 18px;
 
 }
+
+#offcanvasExample{
+    width: 100%;
+}
+
+
+/* STYLE */
+
 .student{
     background-color: #0D6EFD;
+    margin-bottom: 24px;
    
 }
 .badge__student{
     background-color: #08439b;
 }
 
-#offcanvasExample{
-    width: 100%;
-}
-/* STYLE */
-
-
-label{
-    padding: 8px;
+label { 
+ 
 }
 
 
@@ -117,12 +122,20 @@ label{
 
 /* MEDIA-QUERY */
 
+@media screen and (min-width:768px){
+    #offcanvasExample{
+        width: 60%;
+    }
+    
+}
 @media screen and (min-width: 992px) {
   
    .sidebar{
     width: 150px;
    }
-
+   #offcanvasExample{
+    width: 60%;
+}
 }
 
  
