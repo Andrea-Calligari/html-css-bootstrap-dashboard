@@ -110,7 +110,7 @@
                         </div>
                     </div>
                 </section>
-                 <!-- CARD-LIST -->                
+                <!-- CARD-LIST -->
                 <div class="container-fluid">
                     <div class="row g-4">
                         <div class="col-12 col-lg-8">
@@ -388,9 +388,6 @@
                 </div>
             </main>
         </div>
-
-
-
         <!-- OFFCANVAS -->
         <div class=" offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
             aria-labelledby="offcanvasExampleLabel">
@@ -399,8 +396,72 @@
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-               
-                
+                <form action="">
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="sname">Nome</label>
+                            <input class="form-control" id="sname" type="text">
+                            <label for="email">Email</label>
+                            <div class="input-group flex-nowrap">
+                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                                    aria-describedby="addon-wrapping">
+                            </div>
+                            <label for="e-mailaddress">Indirizzo Email</label>
+                            <div class="input-group flex-nowrap">
+                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                                    aria-describedby="addon-wrapping">
+                            </div>
+                            <label for="addr">Indirizzo</label>
+                        </div>
+                        <div class="col-6">
+                            <label for="sname">Cognome</label>
+                            <input class="form-control" id="sname" type="text">
+                            <label for="psw">Password</label>
+                            <input class="form-control" id="psw" type="password">
+                            <label for="psw">Password</label>
+                            <input class="form-control" id="psw" type="password">
+                        </div>
+                        <div class="col-12">
+                            <input class="form-control" id="addr" type="text">
+                        </div>
+                        <div class="col-6">
+                            <label for="city">Città</label>
+                            <input class="form-control" type="text">
+                        </div>
+                        <div class="col-6">
+                            <label for="country">Stato</label>
+                            <div class="input-group mb-3">
+                                <select class="form-select" id="country">
+                                    <option selected>Scegli...</option>
+                                    <option value="1">Italia</option>
+                                    <option value="2">Francia</option>
+                                    <option value="3">Germania</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <input type="file" class="form-control" id="inputGroupFile04"aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                            <input id="box" type="checkbox">
+                            <label for="box">Seleziona per continuare</label>
+                        </div>
+                        <div class="col mt-4">
+                            <button class="btn btn-outline-primary rounded" type="button">Salva</button>
+                            <button class="btn btn-outline-warning rounded" type="button">Svuota</button>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </form>
+
+
             </div>
 
 

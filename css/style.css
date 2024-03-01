@@ -19,6 +19,7 @@ a{
 
 
 /* LAYOUT */
+
 .order__col{
     order: 2;
 }
@@ -100,6 +101,19 @@ a{
 #offcanvasExample{
     width: 100%;
 }
+#offcanvasExample input:not(#box){
+  width: 100%;
+}
+#offcanvasExample #specificSizeInputGroupUsername{
+    width: 1%;
+}
+#addr{
+   width: 50%;
+  
+}
+#box{
+    margin-top: 28px;
+}
 
 
 /* STYLE */
@@ -113,9 +127,6 @@ a{
     background-color: #08439b;
 }
 
-label { 
- 
-}
 
 
 
@@ -134,7 +145,7 @@ label {
     width: 150px;
    }
    #offcanvasExample{
-    width: 60%;
+    width: 80%;
 }
 }
 
@@ -145,11 +156,3 @@ label {
 
 
 
-
-/* DEBUG */
-#app, .app__body > *{
-    /* border: 1px solid black; */
-}
-.main__content > *{
-    /* border: 1px solid blue; */
-}
